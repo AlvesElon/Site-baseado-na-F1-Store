@@ -1,0 +1,140 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #141520;
+    color: white;
+}
+
+header h1 img {
+    height: 30px;
+}
+body, input, textarea{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header h1, section h2, section h3, form button{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 90px;
+    margin-top: 10px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 0px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #ff0202;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.example {
+    padding: 32px;
+    height: 750px;
+}
+
+.social-medias img{
+    height: 24px;
+}
+
+.social-medias li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-medias li a{
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #ff0202;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c92020 ;
+}
+
+input:focus, textarea:focus{
+    outline-color:#ff0202;
+}
+
+footer{
+    background-color:#141520;
+    color: white;
+    padding: 16px 0;
+}
